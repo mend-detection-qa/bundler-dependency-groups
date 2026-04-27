@@ -5,7 +5,7 @@
     "projectToken": "",
     "baseBranches": [],
     "versioning": {
-       "ruby": "2.5.3"
+       "ruby": "4.0.10"
     }
   },
   "scanSettingsSAST": {
