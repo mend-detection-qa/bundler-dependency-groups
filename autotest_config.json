@@ -34,7 +34,7 @@
         ]
       },
       "transitive_dependencies_names_list": {
-        "eq": [
+        "contains": [
           "ast-2.4.2.gem",
           "diff-lcs-1.5.1.gem",
           "docile-1.4.0.gem",
