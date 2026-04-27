@@ -1,0 +1,428 @@
+{
+  "_comment": "Expected dependency tree for the bundler-dependency-groups probe. Dev/test group gems have optional: true. Runtime gems have optional: false.",
+  "updateType": "OVERRIDE",
+  "type": "UPDATE",
+  "agent": "generic-bundler",
+  "agentVersion": "0.0.0",
+  "pluginVersion": "0.0.0",
+  "orgToken": "__PLACEHOLDER__",
+  "userKey": "__PLACEHOLDER__",
+  "timeStamp": 0,
+  "requesterEmail": "__PLACEHOLDER__",
+  "aggregateModules": false,
+  "preserveModuleStructure": false,
+  "extraProperties": {
+    "contributionsAvailable": "false",
+    "commitUrl": "__PLACEHOLDER__",
+    "gitHubInstallationId": "__PLACEHOLDER__",
+    "scmApplicationId": "__PLACEHOLDER__",
+    "branchName": "main",
+    "checkRunId": "__PLACEHOLDER__",
+    "userOrgToken": "__PLACEHOLDER__",
+    "commitId": "__PLACEHOLDER__",
+    "scmInstallationId": "__PLACEHOLDER__",
+    "repository": "mend-detection-qa/bundler-dependency-groups",
+    "scaResults": "__PLACEHOLDER__"
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": ["RUBYGEMS"],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "PackageManager"
+    }
+  },
+  "contributions": [],
+  "projects": [
+    {
+      "projectToken": "__PLACEHOLDER__",
+      "dependencies": [
+        {
+          "artifactId": "rack",
+          "version": "3.0.10",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "rack-3.0.10.gem",
+          "dependencyFile": "Gemfile.lock",
+          "dependencyType": "RESOLVED",
+          "children": []
+        },
+        {
+          "artifactId": "sinatra",
+          "version": "4.0.0",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "sinatra-4.0.0.gem",
+          "dependencyFile": "Gemfile.lock",
+          "dependencyType": "RESOLVED",
+          "children": [
+            {
+              "artifactId": "mustermann",
+              "version": "3.0.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "mustermann-3.0.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": [
+                {
+                  "artifactId": "ruby2_keywords",
+                  "version": "0.0.5",
+                  "groupId": "",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "ruby2_keywords-0.0.5.gem",
+                  "dependencyFile": "Gemfile.lock",
+                  "dependencyType": "RESOLVED",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "artifactId": "rack-protection",
+              "version": "4.0.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "rack-protection-4.0.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "tilt",
+              "version": "2.4.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "tilt-2.4.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            }
+          ]
+        },
+        {
+          "artifactId": "multi_json",
+          "version": "1.15.0",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "multi_json-1.15.0.gem",
+          "dependencyFile": "Gemfile.lock",
+          "dependencyType": "RESOLVED",
+          "children": []
+        },
+        {
+          "artifactId": "rspec",
+          "version": "3.13.0",
+          "groupId": "",
+          "systemPath": "",
+          "optional": true,
+          "filename": "rspec-3.13.0.gem",
+          "dependencyFile": "Gemfile.lock",
+          "dependencyType": "RESOLVED",
+          "children": [
+            {
+              "artifactId": "rspec-core",
+              "version": "3.13.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "rspec-core-3.13.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": [
+                {
+                  "artifactId": "rspec-support",
+                  "version": "3.13.0",
+                  "groupId": "",
+                  "systemPath": "",
+                  "optional": true,
+                  "filename": "rspec-support-3.13.0.gem",
+                  "dependencyFile": "Gemfile.lock",
+                  "dependencyType": "RESOLVED",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "artifactId": "rspec-expectations",
+              "version": "3.13.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "rspec-expectations-3.13.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": [
+                {
+                  "artifactId": "diff-lcs",
+                  "version": "1.5.1",
+                  "groupId": "",
+                  "systemPath": "",
+                  "optional": true,
+                  "filename": "diff-lcs-1.5.1.gem",
+                  "dependencyFile": "Gemfile.lock",
+                  "dependencyType": "RESOLVED",
+                  "children": []
+                },
+                {
+                  "artifactId": "rspec-support",
+                  "version": "3.13.0",
+                  "groupId": "",
+                  "systemPath": "",
+                  "optional": true,
+                  "filename": "rspec-support-3.13.0.gem",
+                  "dependencyFile": "Gemfile.lock",
+                  "dependencyType": "RESOLVED",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "artifactId": "rspec-mocks",
+              "version": "3.13.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "rspec-mocks-3.13.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": [
+                {
+                  "artifactId": "diff-lcs",
+                  "version": "1.5.1",
+                  "groupId": "",
+                  "systemPath": "",
+                  "optional": true,
+                  "filename": "diff-lcs-1.5.1.gem",
+                  "dependencyFile": "Gemfile.lock",
+                  "dependencyType": "RESOLVED",
+                  "children": []
+                },
+                {
+                  "artifactId": "rspec-support",
+                  "version": "3.13.0",
+                  "groupId": "",
+                  "systemPath": "",
+                  "optional": true,
+                  "filename": "rspec-support-3.13.0.gem",
+                  "dependencyFile": "Gemfile.lock",
+                  "dependencyType": "RESOLVED",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "artifactId": "rubocop",
+          "version": "1.62.1",
+          "groupId": "",
+          "systemPath": "",
+          "optional": true,
+          "filename": "rubocop-1.62.1.gem",
+          "dependencyFile": "Gemfile.lock",
+          "dependencyType": "RESOLVED",
+          "children": [
+            {
+              "artifactId": "json",
+              "version": "2.7.2",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "json-2.7.2.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "language_server-protocol",
+              "version": "3.17.0.3",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "language_server-protocol-3.17.0.3.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "parallel",
+              "version": "1.24.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "parallel-1.24.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "parser",
+              "version": "3.3.1.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "parser-3.3.1.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": [
+                {
+                  "artifactId": "ast",
+                  "version": "2.4.2",
+                  "groupId": "",
+                  "systemPath": "",
+                  "optional": true,
+                  "filename": "ast-2.4.2.gem",
+                  "dependencyFile": "Gemfile.lock",
+                  "dependencyType": "RESOLVED",
+                  "children": []
+                },
+                {
+                  "artifactId": "racc",
+                  "version": "1.7.3",
+                  "groupId": "",
+                  "systemPath": "",
+                  "optional": true,
+                  "filename": "racc-1.7.3.gem",
+                  "dependencyFile": "Gemfile.lock",
+                  "dependencyType": "RESOLVED",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "artifactId": "rainbow",
+              "version": "3.1.1",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "rainbow-3.1.1.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "regexp_parser",
+              "version": "2.9.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "regexp_parser-2.9.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "rexml",
+              "version": "3.2.6",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "rexml-3.2.6.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "rubocop-ast",
+              "version": "1.31.2",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "rubocop-ast-1.31.2.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": [
+                {
+                  "artifactId": "parser",
+                  "version": "3.3.1.0",
+                  "groupId": "",
+                  "systemPath": "",
+                  "optional": true,
+                  "filename": "parser-3.3.1.0.gem",
+                  "dependencyFile": "Gemfile.lock",
+                  "dependencyType": "RESOLVED",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "artifactId": "ruby-progressbar",
+              "version": "1.13.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "ruby-progressbar-1.13.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "unicode-display_width",
+              "version": "2.5.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "unicode-display_width-2.5.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            }
+          ]
+        },
+        {
+          "artifactId": "simplecov",
+          "version": "0.22.0",
+          "groupId": "",
+          "systemPath": "",
+          "optional": true,
+          "filename": "simplecov-0.22.0.gem",
+          "dependencyFile": "Gemfile.lock",
+          "dependencyType": "RESOLVED",
+          "children": [
+            {
+              "artifactId": "docile",
+              "version": "1.4.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "docile-1.4.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "simplecov-html",
+              "version": "0.12.3",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "simplecov-html-0.12.3.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "simplecov_json_formatter",
+              "version": "0.1.4",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "simplecov_json_formatter-0.1.4.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
