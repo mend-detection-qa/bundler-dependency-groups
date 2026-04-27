@@ -3,7 +3,10 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
-    "baseBranches": []
+    "baseBranches": [],
+    "versioning": {
+       "ruby": "2.5.3"
+    }
   },
   "scanSettingsSAST": {
     "enableScan": true,
